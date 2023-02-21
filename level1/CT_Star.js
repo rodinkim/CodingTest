@@ -4,9 +4,9 @@ process.stdin.on('data', data => {
     const a = Number(n[0]), b = Number(n[1]);
     
     for (let i = 0; i < b; i++){
-        let star = ""
+        let star = "" //column
         for (let j =0; j < a; j++){
-            star += '*'
+            star += '*' //row
         }
         console.log(star)
     }
