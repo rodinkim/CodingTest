@@ -1,0 +1,11 @@
+function solution(s) {
+    var answer = '';
+    let point = s.length%2 == 1 ? Math.floor(s.length/2) : s.length/2
+    if (s.length%2 == 1){
+        answer = s[point]
+    } else {
+        answer = s[point-1] + s[point]
+    }
+    
+    return answer;
+}
