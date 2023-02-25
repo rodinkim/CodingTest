@@ -12,3 +12,5 @@ process.stdin.on('data', data => {
     }
     
 });
+
+//https://yes5.tistory.com/4
