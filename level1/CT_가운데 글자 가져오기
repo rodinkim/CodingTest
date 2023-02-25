@@ -10,4 +10,4 @@ function solution(s) {
     return answer;
 }
 
-// https://yes5.tistory.com/7
+// https://yes5.tistory.com/8
